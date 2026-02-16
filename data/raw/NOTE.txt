@@ -1,0 +1,22 @@
+DATA DOWNLOAD INSTRUCTIONS
+============================
+
+The raw data files are not included in this repository due to their large size.
+
+Please download the following files:
+
+1. LoanStats3d.csv (2014 loans - ~300MB)
+   Download from: https://web.archive.org/web/20230522033024/https://resources.lendingclub.com/LoanStats3d.csv.zip
+   
+2. LoanStats3c.csv (2015 loans - ~250MB)
+   Download from: https://web.archive.org/web/20220618001912/https://resources.lendingclub.com/LoanStats3c.csv.zip
+
+3. LCDataDictionary.xlsx
+   Download from: https://web.archive.org/web/20200606105339/https://resources.lendingclub.com/LCDataDictionary.xlsx
+
+After downloading:
+- Extract the CSV files from the ZIP archives
+- Place all files in this directory (data/raw/)
+- Run the Jupyter notebooks in order (01 through 04)
+
+For detailed information about the data, see data/README.md
